@@ -1,0 +1,76 @@
+/* CSS stylesheet for resume */
+body {
+  font-family: helvetica, sans-serif;
+}
+
+hr {
+  margin-top: 0%;
+}
+
+h1 {
+  font-size: 200%;
+  text-transform: uppercase;
+  font-weight: 700;
+  box-sizing: border-box;
+  margin-bottom: 0%;
+}
+
+h2 {
+  font-size: 133%;
+  text-transform: uppercase;
+  color: grey;
+  font-weight: 200;
+  margin-bottom: 0;
+}
+
+h3 {
+  text-transform: uppercase;
+  margin-bottom: 0%;
+  font-size:
+}
+
+p {
+
+}
+
+ul {
+  list-style: none;
+  margin-top:0%;
+
+}
+
+li::before {
+  content: "•";
+  color: grey;
+  padding-right: 20px;
+}
+
+li {
+}
+
+.subHeader {
+  text-transform: uppercase;
+  font-size: 67%;
+}
+
+.dates {
+  width: 33%;
+  box-sizing: border-box;
+  float:left;
+  position: relative;
+}
+
+.company {
+  width: 33%;
+  box-sizing: border-box;
+  float: left;
+  position: relative;
+}
+
+.location {
+  width: 33%;
+  box-sizing: border-box;
+  float:right;
+  position: relative;
+  font-style: italic;
+}
