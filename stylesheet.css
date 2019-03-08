@@ -19,14 +19,33 @@ h2 {
   font-size: 133%;
   text-transform: uppercase;
   color: grey;
+  font-weight: 200;
+  margin-bottom: 0;
 }
 
 h3 {
-
+  text-transform: uppercase;
+  margin-bottom: 0%;
+  font-size:
 }
 
 p {
 
+}
+
+ul {
+  list-style: none;
+  margin-top:0%;
+
+}
+
+li::before {
+  content: "•";
+  color: grey;
+  padding-right: 20px;
+}
+
+li {
 }
 
 .subHeader {
